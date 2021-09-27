@@ -1,0 +1,11 @@
+
+Reflection Question 1: What is big-O notation for the worst case runtime to find your lowest value?
+
+
+Reflection Question 2: What is the name of the sort your chose for LeftSort?
+
+
+Reflection Question 3: What is the name of the sort your chose for RightSort?
+
+
+Reflection Question 4: How did we have to change the merge method given in the book/class to take into account that our two arrays are in the opposite direction?

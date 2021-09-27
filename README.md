@@ -36,7 +36,7 @@ You need to show us that it works. Create 2 tests for each method in the Main.ja
 * input (1 pt)
 * expdected output (1 pt)
 * Actual output (1 pt)
-* What you are trying to test in a comment. (example: I am testing an array that is already sorted) (2pts) 
+* What you are trying to test in a comment. (example: I am testing merging on an array that is already sorted) (2pts) 
 
 The four methods to test are
 
@@ -44,9 +44,3 @@ The four methods to test are
 2) SortLeft
 3) SortRight
 4) Merge
-
-## Part 5: Combine in void ValleySort(int[] input)
-ValleSort should do the following steps
-* Find the INDEX of the lowest value
-* Call Left on the array from 0 to INDEX-1 and Right sort on the values from INDEX+1 to the end of the array
-* Call Merge

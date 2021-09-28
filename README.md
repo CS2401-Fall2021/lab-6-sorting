@@ -27,6 +27,7 @@ Hint: If your method recieves an empty array-it should return that emtpy array a
 
 ## Part 3: Merge (15 pts code, 5 pts Q4)
 We now want to merge the values in place. In normal mergesort, we could do this by tracking the of both arrays, and swapping values of the next smallest. This is a little different, as one array is in ascending order, and the other array is in descending order, so we can't just copy-paste the merge method that is given to us in the textbook. We need to change it a little. (Besides, copy-pasting isn't any fun and we don't learn anything.)
+Your merge does not need to be “in place” - you CAN create any new arrays while you are mergeing.
 
 > You can assume that the array is already in it's valley sorted form. No need to check/throw a bad return value. 
 

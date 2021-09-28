@@ -16,7 +16,7 @@ public class ValleySort {
       // You should also change the line below to print out each value in the array. 
       System.out.println(input);
       
-      merge(input);
+      input = merge(input);
       //Expected new value of input should be {1,3,3,4,5,6,7}
       // You should also change the line below to print out each value in the array. 
       System.out.println(input);
@@ -32,7 +32,7 @@ public class ValleySort {
       
     }
     // Note, you might need to change the method signature of this
-    public static void sortRight(int[] input) {
+    public static int[] sortRight(int[] input) {
         
       
     }

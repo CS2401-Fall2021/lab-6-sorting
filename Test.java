@@ -7,9 +7,13 @@ public class Test {
     Scanner scanner = new Scanner(System.in);
     String line = scanner.nextLine();
     String[] inputs=line.split("-");
-
-    int[] array = Arrays.stream(inputs[1].split(","))
-        .map(String::trim).mapToInt(Integer::parseInt).toArray();
+    int[] array;
+    if(inputs.length>1) {
+      array= Arrays.stream(inputs[1].split(","))
+            .map(String::trim).mapToInt(Integer::parseInt).toArray();
+    } else {
+      array = new int[]{};
+    }
     if(inputs[0].equals("min")){
       System.out.println("min:"+ValleySort.findMinIndex(array));
     }
@@ -36,14 +40,13 @@ public class Test {
 
   }
   public static String toString(int[] arr) {
-    String s= "[";
+    String s= "";
     for(int i =0;i<arr.length; i++){
       s=s+arr[i];
       if(i<arr.length-1) {
        s=s+",";
       }
     }
-    s+="]";
     return s;
   }
 

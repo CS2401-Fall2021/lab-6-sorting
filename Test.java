@@ -37,8 +37,8 @@ public class Test {
   }
   public static String toString(int[] arr) {
     String s= "[";
-    for(int i:arr){
-      s=s+i;
+    for(int i =0;i<arr.length; i++){
+      s=s+arr[i];
       if(i<arr.length-1) {
        s=s+",";
       }

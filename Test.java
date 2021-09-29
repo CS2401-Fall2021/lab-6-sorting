@@ -22,7 +22,7 @@ public class Test {
     if(inputs[0].equals("r")){
       int mid =Integer.parseInt(inputs[2]);
       ValleySort.sortRight(array,mid,array.length-1);
-      System.out.println("l:"+toString(array));
+      System.out.println("r:"+toString(array));
     }
     if(inputs[0].equals("m")){
       int mid =Integer.parseInt(inputs[2]);

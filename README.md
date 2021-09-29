@@ -4,7 +4,7 @@
 There are many ways to sort. Some are better than others. In this lab, you will be implementing a new sort I just invented: Valley Sort. It's new, but perhaps not the most optimal.
 
 ## Part 1: Find the index of the lowest value  (10 pts: 8 code, 2 question)
-Go through the array and find the INDEX of the lowest value. This will be your "midpoint".  If there are multiple lowest values, choose the first one. 
+Go through the array and find the INDEX of the lowest value. This will be your "midpoint".  If there are multiple lowest values, choose the first one. If there are no values, return -1.
 
 ### Reflection Question 1: What is big-O notation for the worst case runtime to find your lowest value?
 

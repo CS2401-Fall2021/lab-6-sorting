@@ -11,7 +11,7 @@ public class Test {
     int[] array = Arrays.stream(inputs[1].split(","))
         .map(String::trim).mapToInt(Integer::parseInt).toArray();
     if(inputs[0].equals("min")){
-      System.out.println("min:"+ValleySort.findMinIndex(array);
+      System.out.println("min:"+ValleySort.findMinIndex(array));
     }
     if(inputs[0].equals("l")){
 

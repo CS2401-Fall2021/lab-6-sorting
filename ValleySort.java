@@ -31,6 +31,7 @@ public class ValleySort {
   }
 
     public static int findMinIndex(int[] input) {
+      int midex=0;
       // It's the min-Index...or mindex. Get it?
       return mindex;
     }

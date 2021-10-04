@@ -41,7 +41,7 @@ Your merge does not need to be “in place” - you CAN create any new arrays wh
 
 ### Reflection Question 4: How did we have to change the merge method given in the book/class to take into account that our two arrays are in the opposite direction?
 
-## Part 4: Test (20 pts. 4 methods *2 tests per method*2.5 pts per test )
+## Part 4: Test (20 pts. 4 methods \* 2 tests per method \* 2.5 pts per test )
 
 You need to show us that it works. Create 2 tests for each method in the Main.java method. Be sure you include
 * input (.5 pt)

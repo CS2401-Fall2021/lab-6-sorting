@@ -7,7 +7,7 @@ There are many ways to sort. Some are better than others. In this lab, you will 
 ### DAY 1: Part 1, Part 2 completed w/reflections
 ### DAY 2: Part 3, Part 4 completed w/reflections
 
-## Part 1: Find the index of the lowest value  (15 pts: 10 code, 5 questions)
+## Part 1: Find the index of the lowest value  (25 pts: 10 code, 15 questions)
 Go through the array and find the INDEX of the lowest value. This will be your "midpoint".  If there are multiple lowest values, choose the first one. If there are no values, return -1.
 
 ### Reflection Question 1.1: What is big-O notation for the worst case runtime to find your lowest value?

@@ -32,9 +32,7 @@ public class ValleySort {
 
     public static int findMinIndex(int[] input) {
       // It's the min-Index...or mindex. Get it?
-     
-        
-      return minDex;
+      return mindex;
     }
 
     public static void sortLeft(int[] arr, int start, int end) {
@@ -42,11 +40,10 @@ public class ValleySort {
       
     }
     public static void sortRight(int[] arr, int start, int end) {
-    {
 
 
     }
     public static int[] merge(int[] input, int minIndex) {
-  return input;
+       return input;
     }
 }

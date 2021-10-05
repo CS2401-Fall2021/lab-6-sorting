@@ -12,7 +12,7 @@ Go through the array and find the INDEX of the lowest value. This will be your "
 
 ### Reflection Question 1.1: What is big-O notation for the worst case runtime to find your lowest value?
 ### Reflection Question 1.2: What should be returned if there is an empty array?
-### Reflection Question 1.2: What should be returned if the input is [1,1,2,3]? 
+### Reflection Question 1.3: What should be returned if the input is [1,1,2,3]? 
 
 ## Part 2: Left and Right Sorts (25 pts-5 for names, 20 for implementations)
 *** IF YOU DON'T FINISH THIS PART BY END OF THE FIRST DAY PLEASE COME TO OFFICE HOURS ***

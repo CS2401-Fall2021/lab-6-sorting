@@ -27,7 +27,7 @@ You need to practice good method best practices. Each of your sorts must be thei
 method (HINT: they should probably need to take in parameters for your array and one or more indices that tell
 the sort where in the array to stop and/or start). 
 
-Hint: If your method recieves an empty array-it should return that emtpy array as empty arrays are still considered sorted. 
+Hint: If your method recieves an empty array-it should return that empty array as empty arrays are still considered sorted. 
 
 ### Reflection Question 2: What is the name of the sort your chose for LeftSort? 
 
@@ -44,8 +44,8 @@ Your merge does not need to be “in place” - you CAN create any new arrays wh
 ## Part 4: Test (20 pts. 4 methods \* 2 tests per method \* 2.5 pts per test )
 
 You need to show us that it works. Create 2 tests for each method in the Main.java method. Be sure you include
-* input (.5 pt)
-* expected output (.5 pt)
+* Input (.5 pt)
+* Expected output (.5 pt)
 * Actual output (.5 pt)
 * What you are trying to test in a comment. (example: I am testing merging on an array that is already sorted) (1pt) 
 
